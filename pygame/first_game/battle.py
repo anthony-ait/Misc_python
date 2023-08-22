@@ -386,11 +386,7 @@ while run:
                 bandit.reset()
             current_fighter = 1
             action_cooldown = 0
-            game_over = 0
-
-    
-
-        
+            game_over = 0    
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
